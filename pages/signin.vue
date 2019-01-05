@@ -106,8 +106,8 @@ export default {
       isRememberMeChecked: false,
       isPasswordDisplayed: false,
       isActionButtonDisabled: true,
-      username: "Admin",
-      password: "Admin123"
+      username: "",
+      password: ""
     };
   },
   computed: {
