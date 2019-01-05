@@ -3,8 +3,13 @@ import mutations from "./mutations";
 import actions from "./actions";
 
 const state = () => ({
-  exampleState: null
-  // TODO: Add state
+  notification: {
+    text: null,
+    timeout: 6000,
+    color: null,
+    multiline: false
+  },
+  isNotificationDisplayed: false
 });
 
 export default {

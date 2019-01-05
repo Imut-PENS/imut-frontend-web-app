@@ -9,8 +9,8 @@
       <v-layout class="mb-3" justify-center="justify-center">
         <v-flex xs10="xs10">
           <v-img
-            src="/img/icons/landing-icon-danone.png"
-            alt="Machine Vision"
+            src="/img/imut_logo.png"
+            alt="Imunisasi Terpadu"
             height="128"
             contain="contain"
           />
@@ -106,8 +106,8 @@ export default {
       isRememberMeChecked: false,
       isPasswordDisplayed: false,
       isActionButtonDisabled: true,
-      username: "",
-      password: ""
+      username: "Admin",
+      password: "Admin123"
     };
   },
   computed: {
