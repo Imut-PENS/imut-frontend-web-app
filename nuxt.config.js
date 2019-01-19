@@ -3,7 +3,7 @@ import VuetifyLoaderPlugin from "vuetify-loader/lib/plugin";
 require("dotenv").config();
 
 export default {
-  // https://nuxtjs.org/api/configuration-modern
+  mode: "spa",
   modern: true,
 
   // https://nuxtjs.org/api/configuration-head
@@ -38,16 +38,16 @@ export default {
     "@nuxtjs/sentry",
 
     // https://github.com/Developmint/nuxt-webfontloader
-    "nuxt-webfontloader",
+    "nuxt-webfontloader"
 
     // https://github.com/nuxt-community/analytics-module
-    [
-      "@nuxtjs/google-analytics",
-      {
-        // TODO: Change this id to your Google Analytics ID
-        id: process.env.GOOGLE_ANALYTICS
-      }
-    ]
+    // [
+    //   "@nuxtjs/google-analytics",
+    //   {
+    //     // TODO: Change this id to your Google Analytics ID
+    //     id: process.env.GOOGLE_ANALYTICS
+    //   }
+    // ]
   ],
 
   webfontloader: {
